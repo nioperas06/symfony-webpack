@@ -1,0 +1,9 @@
+{
+  "build/app.js": "/build/app.js",
+  "build/global.css": "/build/global.css",
+  "build/fonts/glyphicons-halflings-regular.eot": "/build/fonts/glyphicons-halflings-regular.eot",
+  "build/fonts/glyphicons-halflings-regular.ttf": "/build/fonts/glyphicons-halflings-regular.ttf",
+  "build/fonts/glyphicons-halflings-regular.woff": "/build/fonts/glyphicons-halflings-regular.woff",
+  "build/fonts/glyphicons-halflings-regular.woff2": "/build/fonts/glyphicons-halflings-regular.woff2",
+  "build/images/glyphicons-halflings-regular.svg": "/build/images/glyphicons-halflings-regular.svg"
+}

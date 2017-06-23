@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+{% block title %}
+    Encore + redirectjs
+{% endblock %}
+{% block body %}
+    <div class="well well-lg">
+      <a href="https://github.com/nioperas06/redirectjs">@redirectjs</a> is a
+      library for redirection in JavaScript 😄
+    </div>
+    <div class="">
+      <p>
+        How to use it?
+      </p>
+      <ol>
+        <li>$ npm install redirectjs</li>
+        <li> var req = require('redirectjs'); </li>
+        <li> req.redirectTo('https://github.com/nioperas06/redirectjs'); </li>
+      </ol>
+    </div>
+    <div class="">
+      <a class="btn btn-default" href="#" id="redirectjs" role="button">Redirect</a>
+    </div>
+{% endblock %}

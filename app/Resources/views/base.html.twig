@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link rel="stylesheet" href="{{ asset('build/global.css') }}">
+    </head>
+    <body>
+      <div class="container">
+        <div class="page-header">
+          <h1>Webpack Encore <small>Small app using webpack-encore and <a href="https://github.com/nioperas06/redirectjs">redirectjs</a></small></h1>
+        </div>
+        {% block body %}
+
+        {% endblock %}
+      </div>
+      <script src="{{ asset('build/app.js') }}"></script>
+    </body>
+</html>

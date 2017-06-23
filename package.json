@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.8.0",
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "^3.2.1",
+    "node-sass": "^4.5.3",
+    "redirectjs": "^1.9.0",
+    "sass-loader": "^6.0.6"
+  },
+  "scripts": {
+    "dev": "./node_modules/.bin/encore dev --watch"
+  }
+}
